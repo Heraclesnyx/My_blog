@@ -1,0 +1,314 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+
+	background-image: url("img/unicorn.jpg");
+	font-family: 'Lato', sans-serif;
+	color: #606060;
+}
+
+#title {
+
+	font-family: 'Just Another Hand', cursive;
+	font-size: 100px;
+	color: #EE897D;
+	text-align: center;
+	color:linear-gradient(white, black);
+}
+
+input {
+
+	height: 35px;
+	border: none;
+	padding: 0 10px;
+	border-bottom : 2px solid #F7BE91;
+}
+
+button {
+
+	height: 37px;
+	margin : 6px 0 5px 0;
+	border: none;
+	background-color: #F7BE91;
+	margin-right: 10px;
+	border-bottom : 2px solid #FFF;
+}
+#blognav {
+
+	text-align: center;
+	padding: 20px 0 0 0;
+	background-color: rgba(255, 255, 255, 0.6);
+	height: 50px;
+	margin: auto;
+	margin-top: 25px;
+	width: 1030px;
+	border-radius: 100px 100px 0 0;
+}
+.menu {
+	display : inline-block;
+	font-size: 25px;
+	padding: 0 10px;
+}
+
+label {
+
+	width: 250px;
+	display: block;
+	float: left;
+}
+
+.container {
+
+	float: right;
+}
+
+.log {
+
+	background-color: #FEE580;
+	height: 63px;
+}
+.tinytext {
+
+	font-size : 10px;
+	padding-top : -20px;
+}
+
+.bandeau {
+
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 15px;
+}
+
+a {
+	text-decoration: none; 
+	color: #EE897D; 
+}
+
+#footer {
+
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: -5px;
+}
+
+#main { 
+	
+	width: 990px;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin: auto;
+	margin-bottom: 30px; 
+	padding: 20px;
+}
+
+.article-header {
+
+	background-color: #9AD2D3;
+	width: 950px;
+	color: #FFF;
+	padding: 10px;
+	font-size: 30px;
+	margin: auto;
+}
+
+.content {
+
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 930px;
+	color: #404040;
+	padding: 20px;
+	font-size: 15px;
+	margin: auto;
+}
+
+.article-footer {
+
+	background-color: rgba(255, 255, 255, 0.8);
+	border-top: 3px double #9AD2D3;
+	width: 950px;
+	color: #404040;
+	padding: 10px;
+	font-size: 10px;
+	margin: auto;
+	border-bottom: 4px solid #FEE580;
+}
+
+.inputadmin {
+
+	display:block;
+	width: 300px;
+	margin-bottom: 5px;
+}
+
+#submitadmin {
+
+	display: block;
+	width: 320px;
+}
+
+#formcontainer {
+
+	margin: auto;
+	background-color: #9AD2D3;
+	width: 310px;
+	padding: 40px 50px 40px 40px;
+}
+
+#formcontainer2 {
+
+	margin: auto;
+	background-color: #9AD2D3;
+	width: 480px;
+	padding: 40px 50px 40px 40px;
+}
+
+
+#identadmin {
+
+	color: #FFF;
+	font-size: 18.5px;
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.subscribeinput {
+
+	width: 200px;
+}
+
+.subscribebutton {
+
+	width: 220px;
+}
+
+.contact-label {
+
+	margin: 5px 0;
+}
+
+#contact-message {
+
+	border: none;
+	overflow: auto;
+	outline: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	width : 310px;
+	height: 150px;
+	resize:none;
+	border-bottom: 4px solid #F7BE91;
+}
+
+#membre-container {
+
+	background-color: #FEE580;
+	padding: 50px;
+}
+
+#bodyadmin {
+
+	background-image: url("img/admin.jpg");
+}
+
+#head {
+	background-color: #CCCCCC;
+	height: 60px;
+}
+
+#admintitle {
+
+	font-size: 45px;
+	float: left;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	padding: 10px 40px;
+	margin: 5px 10px 10px 0px;
+	float: right;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.blue
+{
+	background-color: #004084;
+	border-bottom: 5px solid #002B56;
+	text-shadow: 0px -2px #002B56;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+	-webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+#admincontainer {
+
+	margin: auto;
+	width : 900px;
+}
+
+#adminnav {
+
+	width : 220px;
+	height : 600px;
+	background-color: #002B56;
+	color : #FFF;
+	margin: auto;
+	margin-top: 50px;
+	float: left;
+	padding: 20px;
+	border-bottom: 6px solid #FFF;
+}
+
+#adminmain {
+
+	width : 600px;
+	height : 600px;
+	background-color: #DDDDDD;
+	color : #404040;
+	margin-top: 50px;
+	float: left;
+	padding: 20px;
+	border-bottom: 6px solid #FFF;
+}
+
+.adminlist {
+
+	list-style-type: none;
+	padding-bottom: 5px;
+}
+
+.adminlistlink {
+
+	color: #FFF ;
+}
